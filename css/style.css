@@ -1,0 +1,123 @@
+*{box-sizing: border-box;}
+
+@font-face {
+	font-family: 'Chevin Pro';
+	src: url('../fonts/ChevinPro-Light.eot');
+	src: url('../fonts/ChevinPro-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ChevinPro-Light.woff') format('woff'),
+		url('../fonts/ChevinPro-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Chevin Pro';
+	src: url('../fonts/ChevinPro-DemiBold.eot');
+	src: url('../fonts/ChevinPro-DemiBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ChevinPro-DemiBold.woff') format('woff'),
+		url('../fonts/ChevinPro-DemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Chevin Pro';
+	src: url('../fonts/ChevinPro-ExtraBoldItalic.eot');
+	src: url('../fonts/ChevinPro-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ChevinPro-ExtraBoldItalic.woff') format('woff'),
+		url('../fonts/ChevinPro-ExtraBoldItalic.ttf') format('truetype');
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Chevin Pro';
+	src: url('../fonts/ChevinPro-Thin.eot');
+	src: url('../fonts/ChevinPro-Thin.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ChevinPro-Thin.woff') format('woff'),
+		url('../fonts/ChevinPro-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Chevin Pro';
+	src: url('../fonts/ChevinPro-Bold.eot');
+	src: url('../fonts/ChevinPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ChevinPro-Bold.woff') format('woff'),
+		url('../fonts/ChevinPro-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Chevin Pro';
+	src: url('../fonts/ChevinPro-ExtraBold.eot');
+	src: url('../fonts/ChevinPro-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ChevinPro-ExtraBold.woff') format('woff'),
+		url('../fonts/ChevinPro-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Chevin Pro';
+	src: url('../fonts/ChevinPro-LightItalic.eot');
+	src: url('../fonts/ChevinPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ChevinPro-LightItalic.woff') format('woff'),
+		url('../fonts/ChevinPro-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Chevin Pro';
+	src: url('../fonts/ChevinPro-MediumItalic.eot');
+	src: url('../fonts/ChevinPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ChevinPro-MediumItalic.woff') format('woff'),
+		url('../fonts/ChevinPro-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Chevin Pro';
+	src: url('../fonts/ChevinPro-DemiBoldItalic.eot');
+	src: url('../fonts/ChevinPro-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ChevinPro-DemiBoldItalic.woff') format('woff'),
+		url('../fonts/ChevinPro-DemiBoldItalic.ttf') format('truetype');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Chevin Pro';
+	src: url('../fonts/ChevinPro-BoldItalic.eot');
+	src: url('../fonts/ChevinPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ChevinPro-BoldItalic.woff') format('woff'),
+		url('../fonts/ChevinPro-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Chevin Pro';
+	src: url('../fonts/ChevinPro-Medium.eot');
+	src: url('../fonts/ChevinPro-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ChevinPro-Medium.woff') format('woff'),
+		url('../fonts/ChevinPro-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Chevin Pro';
+	src: url('../fonts/ChevinPro-ThinItalic.eot');
+	src: url('../fonts/ChevinPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ChevinPro-ThinItalic.woff') format('woff'),
+		url('../fonts/ChevinPro-ThinItalic.ttf') format('truetype');
+	font-weight: 100;
+	font-style: italic;
+}
+
+
