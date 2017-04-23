@@ -120,6 +120,10 @@
 	font-style: italic;
 }
 
+.body {
+  color: #333333;
+}
+
 .page-header {
   display: flex;
   width: 1278px;
@@ -164,7 +168,7 @@
 
 .page-header__text-title {
   margin-bottom: 42px;
-  font-family: 'ChevinPro-Light';
+  font-family: 'ChevinPro-Thin';
   font-size: 42px;
   line-height: 1.1;
   color: #333333;
@@ -175,7 +179,7 @@
 }
 
 .btn {
-  padding: 21px 20px;
+  padding: 21px 24px;
   background: #00ABE8;
   box-shadow: 0px 0px 0px #00ABE8;
   border-radius: 8px;
@@ -183,6 +187,7 @@
   font-family: "ChevinPro-DemiBold";
   font-size: 13px;
   line-height: 18px;
+  letter-spacing: 1.1px;
   color: #FFFFFF;
 }
 
@@ -197,10 +202,14 @@
   text-decoration: none;
 }
 
-.main {
+.container {
   width: 1278px;
   margin: 0 auto;
   padding: 0 180px;
+}
+
+.features {
+  margin-bottom: 24px;
 }
 
 .features__title {
@@ -261,4 +270,273 @@
 
 .item-text {
   text-align: center;
+  font-family: "ChevinPro-Light";
+  font-size: 17px;
+  line-height: 1.41;
+}
+
+.responsibility-requirement {
+  min-height: 502px;
+  margin-bottom: 84px;
+  border-top: 1px solid #dddfe0;
+  border-bottom: 1px solid #dddfe0;
+}
+
+.responsibility-requirement-container {
+  display: flex;
+
+}
+
+.responsibility {
+  width: 459px;
+  padding-top: 60px;
+  min-height:  502px;
+}
+
+.responsibility__title {
+  margin-bottom: 36px;
+  padding-right: 121px;
+  text-align: right;
+  font-family: 'ChevinPro-Thin';
+  font-size: 42px;
+  line-height: 1.1;
+  color: #333333;
+}
+
+.responsibility__list {
+  width: 377px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.responsibility__item {
+  position: relative;
+  padding-left: 23px;
+  margin-bottom: 18px;
+  font-family: 'ChevinPro-Light';
+  font-size: 17px;
+  line-height: 1.41;
+}
+
+.responsibility__item span {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: #00abe8;
+  border-radius: 50%;
+}
+
+.requirement {
+  padding-top: 60px;
+  min-height:  502px;
+  padding-left: 80px;
+  border-left: 1px solid #dddfe0;
+}
+
+.requirement__title {
+  margin-bottom: 36px;
+  padding-right: 121px;
+  text-align: right;
+  font-family: 'ChevinPro-Thin';
+  font-size: 42px;
+  line-height: 1.1;
+  color: #333333;
+}
+
+.requirement__list {
+  width: 377px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.requirement__item {
+  position: relative;
+  padding-left: 23px;
+  margin-bottom: 18px;
+  font-family: 'ChevinPro-Light';
+  font-size: 17px;
+  line-height: 1.41;
+}
+
+.requirement__item span {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: #00abe8;
+  border-radius: 50%;
+}
+
+.condition {
+  margin-bottom: 140px;
+}
+
+.condition__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.condition__title {
+  width: 100%;
+  margin-bottom: 50px;
+  font-family: "ChevinPro-Thin";
+  text-align: center;
+  font-size: 42px;
+  line-height: 1.1;
+  color: #333333;
+}
+
+.condition__icon {
+  position: relative;
+  width: 383px;
+  height: 383px;
+  background: url('../img/conditions.png') no-repeat center;
+  background-size: contain;
+}
+
+.condition__icon-logo {
+  position: absolute;
+  top: 79px;
+  left: 210px;
+  width: 68.4px;
+  height: 107.9px;
+  background: url('../img/logo_small.png') no-repeat center;
+  background-size: contain;
+  transform: rotate(45deg);
+}
+
+.condition__list {
+  margin: 0;
+  padding: 0;
+  width: 378px;
+  list-style: none;
+}
+
+.condition__item {
+  position: relative;
+  padding-left: 23px;
+  margin-bottom: 18px;
+  font-family: 'ChevinPro-Light';
+  font-size: 17px;
+  line-height: 1.41;
+}
+
+.condition__item span {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: #00abe8;
+  border-radius: 50%;
+}
+
+.how-work__title {
+  width: 100%;
+  margin-bottom: 76px;
+  font-family: "ChevinPro-Thin";
+  text-align: center;
+  font-size: 42px;
+  line-height: 1.1;
+  color: #333333;
+}
+
+.how-work__items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.how-work__item {
+  position: relative;
+  width: 270px;
+  min-height: 200px;
+  padding: 0 18px;
+  padding-top: 30px;
+  font-family: 'ChevinPro-Light';
+  border: solid 1px #00abe8;
+  border-radius: 8px;
+}
+
+.how-work__item:first-child::before,
+.how-work__item:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  right: -46px;
+  top: 92px;
+  width: 38px;
+  height: 2px;
+  background: url('../img/dots.png') no-repeat center;
+  background-size: contain;
+}
+
+.how-work__item--ok {
+  border: solid 1px #77c42d;
+}
+
+.how-work__item--ok::after {
+  content: '';
+  position: absolute;
+  right: 24.8px;
+  bottom: 24px;
+  display: block;
+  width: 84.3px;
+  height: 65.2px;
+  background: url('../img/ok.png') no-repeat center;
+  background-size: contain;
+}
+
+.how-work__item-title {
+  margin-bottom: 12px;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.how-work__item-text {
+  font-size: 17px;
+}
+
+.how-work {
+  margin-bottom: 132px;
+}
+
+.join {
+  margin-bottom: 132px;
+  text-align: center;
+}
+
+.join__title {
+  margin-bottom: 42px;
+  text-align: center;
+  font-family: "ChevinPro-Thin";
+  font-size: 42px;
+  line-height: 1.1;
+}
+
+.join__btn {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.info {
+  padding-bottom: 40px;
+  font-family: "ChevinPro-Light";
+  font-size: 17px;
+  text-align: center;
+  color: #9299a2;
+}
+
+.info__text {
+  width: 458px;
+  margin: 0 auto;
 }
