@@ -1,7 +1,7 @@
 *{box-sizing: border-box;}
 
 @font-face {
-	font-family: 'Chevin Pro';
+	font-family: 'ChevinPro-Light';
 	src: url('../fonts/ChevinPro-Light.eot');
 	src: url('../fonts/ChevinPro-Light.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/ChevinPro-Light.woff') format('woff'),
@@ -11,7 +11,7 @@
 }
 
 @font-face {
-	font-family: 'Chevin Pro';
+	font-family: 'ChevinPro-DemiBold';
 	src: url('../fonts/ChevinPro-DemiBold.eot');
 	src: url('../fonts/ChevinPro-DemiBold.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/ChevinPro-DemiBold.woff') format('woff'),
@@ -21,7 +21,7 @@
 }
 
 @font-face {
-	font-family: 'Chevin Pro';
+	font-family: 'ChevinPro-ExtraBoldItalic';
 	src: url('../fonts/ChevinPro-ExtraBoldItalic.eot');
 	src: url('../fonts/ChevinPro-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/ChevinPro-ExtraBoldItalic.woff') format('woff'),
@@ -31,7 +31,7 @@
 }
 
 @font-face {
-	font-family: 'Chevin Pro';
+	font-family: 'ChevinPro-Thin';
 	src: url('../fonts/ChevinPro-Thin.eot');
 	src: url('../fonts/ChevinPro-Thin.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/ChevinPro-Thin.woff') format('woff'),
@@ -41,7 +41,7 @@
 }
 
 @font-face {
-	font-family: 'Chevin Pro';
+	font-family: 'ChevinPro-Bold';
 	src: url('../fonts/ChevinPro-Bold.eot');
 	src: url('../fonts/ChevinPro-Bold.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/ChevinPro-Bold.woff') format('woff'),
@@ -51,7 +51,7 @@
 }
 
 @font-face {
-	font-family: 'Chevin Pro';
+	font-family: 'ChevinPro-ExtraBold';
 	src: url('../fonts/ChevinPro-ExtraBold.eot');
 	src: url('../fonts/ChevinPro-ExtraBold.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/ChevinPro-ExtraBold.woff') format('woff'),
@@ -61,7 +61,7 @@
 }
 
 @font-face {
-	font-family: 'Chevin Pro';
+	font-family: 'ChevinPro-LightItalic';
 	src: url('../fonts/ChevinPro-LightItalic.eot');
 	src: url('../fonts/ChevinPro-LightItalic.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/ChevinPro-LightItalic.woff') format('woff'),
@@ -71,7 +71,7 @@
 }
 
 @font-face {
-	font-family: 'Chevin Pro';
+	font-family: 'ChevinPro-MediumItalic';
 	src: url('../fonts/ChevinPro-MediumItalic.eot');
 	src: url('../fonts/ChevinPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/ChevinPro-MediumItalic.woff') format('woff'),
@@ -81,7 +81,7 @@
 }
 
 @font-face {
-	font-family: 'Chevin Pro';
+	font-family: 'ChevinPro-DemiBoldItalic';
 	src: url('../fonts/ChevinPro-DemiBoldItalic.eot');
 	src: url('../fonts/ChevinPro-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/ChevinPro-DemiBoldItalic.woff') format('woff'),
@@ -91,7 +91,7 @@
 }
 
 @font-face {
-	font-family: 'Chevin Pro';
+	font-family: 'ChevinPro-BoldItalic';
 	src: url('../fonts/ChevinPro-BoldItalic.eot');
 	src: url('../fonts/ChevinPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/ChevinPro-BoldItalic.woff') format('woff'),
@@ -101,7 +101,7 @@
 }
 
 @font-face {
-	font-family: 'Chevin Pro';
+	font-family: 'ChevinPro-Medium';
 	src: url('../fonts/ChevinPro-Medium.eot');
 	src: url('../fonts/ChevinPro-Medium.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/ChevinPro-Medium.woff') format('woff'),
@@ -111,7 +111,7 @@
 }
 
 @font-face {
-	font-family: 'Chevin Pro';
+	font-family: 'ChevinPro-ThinItalic';
 	src: url('../fonts/ChevinPro-ThinItalic.eot');
 	src: url('../fonts/ChevinPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/ChevinPro-ThinItalic.woff') format('woff'),
@@ -120,4 +120,145 @@
 	font-style: italic;
 }
 
+.page-header {
+  display: flex;
+  width: 1278px;
+  min-height: 660px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
 
+.page-header__bg {
+  display: flex;
+  justify-content: center;
+  padding-top: 160px;
+  width: 640px;
+  height: 660px;
+  background: url('../img/head_bg.jpg') no-repeat center;
+  background-size: contain;
+}
+
+.page-header__logo {
+  width: 280px;
+  height: 280px;
+  background: url('../img/logo.png') no-repeat center;
+  background-size: contain;
+  z-index: 5;
+}
+
+.page-header__text {
+  width: 530px;
+  min-height: 328px;
+  margin-top: 155px;
+  margin-left: 54px;
+}
+
+.page-header__text-min {
+  margin-bottom: 18px;
+  opacity: 0.5;
+  font-family: 'ChevinPro-Light';
+  font-size: 17px;
+  line-height: 1.41;
+  color: #333333;
+}
+
+.page-header__text-title {
+  margin-bottom: 42px;
+  font-family: 'ChevinPro-Light';
+  font-size: 42px;
+  line-height: 1.1;
+  color: #333333;
+}
+
+.page-header__text-title-bold {
+  font-family: 'ChevinPro-DemiBold';
+}
+
+.btn {
+  padding: 21px 20px;
+  background: #00ABE8;
+  box-shadow: 0px 0px 0px #00ABE8;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: "ChevinPro-DemiBold";
+  font-size: 13px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.page-header__text-management-btn {
+  margin-right: 24px;
+}
+
+.page-header__text-management-detail {
+  font-family: 'ChevinPro-DemiBold';
+  font-size: 13px;
+  color: #00abe8;
+  text-decoration: none;
+}
+
+.main {
+  width: 1278px;
+  margin: 0 auto;
+  padding: 0 180px;
+}
+
+.features__title {
+  margin: 0 auto;
+  margin-bottom: 60px;
+  font-family: "ChevinPro-Thin";
+  width: 403px;
+  height: 46px;
+  font-size: 42px;
+  text-align: center;
+  color: #333333;
+}
+
+.features__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.features__item {
+  width: 270px;
+  margin-bottom: 66px;
+}
+
+.item-icon {
+  margin: 0 auto;
+  margin-bottom: 18px;
+  width: 102px;
+  height: 102px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.item-icon--1 {
+  background-image: url('../img/why-1.png');
+}
+
+.item-icon--2 {
+  background-image: url('../img/why-2.png');
+}
+
+.item-icon--3 {
+  background-image: url('../img/why-3.png');
+}
+
+.item-icon--4 {
+  background-image: url('../img/why-4.png');
+}
+
+.item-icon--5 {
+  background-image: url('../img/why-5.png');
+}
+
+.item-icon--6 {
+  background-image: url('../img/why-6.png');
+}
+
+.item-text {
+  text-align: center;
+}
