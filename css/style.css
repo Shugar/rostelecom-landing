@@ -128,6 +128,7 @@
   display: flex;
   width: 1278px;
   min-height: 660px;
+  height: 100vh;
   margin: 0 auto;
   margin-bottom: 120px;
 }
@@ -139,7 +140,7 @@
   width: 640px;
   min-height: 660px;
   background: url('../img/head_bg.jpg') no-repeat center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .page-header__logo {
@@ -178,7 +179,8 @@
 }
 
 .page-header__text-title-bold {
-  font-family: 'ChevinPro-DemiBold';
+  font-family: 'ChevinPro-Thin';
+  font-weight: bold;
 }
 
 .btn {
@@ -257,7 +259,8 @@
     background-color: #ffffff;
     color: #333333;
     text-shadow: none;
-
+    text-align: center;
+    vertical-align: middle;
   }
   .page-header__text-management-btn {
      margin-right: 0;
@@ -336,6 +339,30 @@
   background-image: url('../img/why-6.png');
 }
 
+.item-icon--7 {
+  background-image: url('../img/why-7.png');
+}
+
+.item-icon--8 {
+  background-image: url('../img/why-8.png');
+}
+
+.item-icon--9 {
+  background-image: url('../img/why-9.png');
+}
+
+.item-icon--10 {
+  background-image: url('../img/why-10.png');
+}
+
+.item-icon--11 {
+  background-image: url('../img/why-11.png');
+}
+
+.item-icon--12 {
+  background-image: url('../img/why-12.png');
+}
+
 .item-text {
   text-align: center;
   font-family: "ChevinPro-Light";
@@ -389,7 +416,6 @@
 
 .responsibility-requirement-container {
   display: flex;
-
 }
 
 .responsibility {
@@ -444,8 +470,7 @@
 
 .requirement__title {
   margin-bottom: 36px;
-  padding-right: 121px;
-  text-align: right;
+  text-align: center;
   font-family: 'ChevinPro-Thin';
   font-size: 42px;
   line-height: 1.1;
