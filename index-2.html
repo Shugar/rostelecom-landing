@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>Job vacancy</title>
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 </head>
 <body>
   <header class="page-header">
@@ -135,34 +135,31 @@
        </div>
       </div>
       <div class="condition">
-       <div class="condition__container container">
-        <div class="condition__title">
-          Мы предлагаем
-        </div>
-        <div class="condition__icon">
-          <div class="condition__icon-logo">
+        <div class="condition__container container">
+          <div class="condition__title">
+            Мы предлагаем
           </div>
-         </div>
-         <ul class="condition__list">
-           <li class="condition__item"><span></span>
-           Самостоятельное планирование своей работы
-           </li>
-           <li class="condition__item"><span></span>
-           Вознаграждение по сдельно-премиальной системе
-           </li>
-           <li class="condition__item"><span></span>
-           Корпоративное обучение, тренинги
-           </li>
-           <li class="condition__item"><span></span>
-           Тренер-наставник, который поможет и обучит грамотному общению с клиентами
-           </li>
-           <li class="condition__item"><span></span>
-           Дружный коллектив
-           </li>
-           <li class="condition__item"><span></span>
-           Карьера и развитие в крупной компании
-           </li>
-         </ul>
+          <div class="condition__icon"></div>
+          <ul class="condition__list">
+            <li class="condition__item"><span></span>
+            Самостоятельное планирование своей работы
+            </li>
+            <li class="condition__item"><span></span>
+            Вознаграждение по сдельно-премиальной системе
+            </li>
+            <li class="condition__item"><span></span>
+            Корпоративное обучение, тренинги
+            </li>
+            <li class="condition__item"><span></span>
+            Тренер-наставник, который поможет и обучит грамотному общению с клиентами
+            </li>
+            <li class="condition__item"><span></span>
+            Дружный коллектив
+            </li>
+            <li class="condition__item"><span></span>
+            Карьера и развитие в крупной компании
+            </li>
+          </ul>
         </div>
       </div>
       <div class="how-work container">
@@ -208,8 +205,27 @@
   <footer class="info container">
   <div class="info__text">
     Сервис предоставлен компанией Skillaz.<br>
-    В случае технических неполадок звоните:<br> +7 (499) 110-35-73
+    В случае технических неполадок звоните:<br class="info-br"> +7 (499) 110-35-73
   </div>
   </footer>
+  <div class="top-line">
+    <div class="top-line__container">
+      <div class="top-line__logo"></div>
+      <div class="top-line__text">
+        Внешний торговый представитель
+      </div>
+      <a href="#" class="btn top-line__btn">
+        ПРОЙТИ ОНЛАЙН-СОБЕСЕДОВАНИЕ
+      </a>
+    </div>
+  </div>
+  <script>
+    $(document).ready(function () {
+      $(window).on("scroll", function () {
+        var fromTop = $("body").scrollTop()
+        $('.top-line').toggleClass("sticky", (fromTop > $('.page-header').height()))
+      })
+    })
+  </script>
 </body>
 </html>
