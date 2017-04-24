@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -9,6 +8,7 @@
   <title>Job vacancy</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 </head>
 <body>
   <header class="page-header">
@@ -214,10 +214,18 @@
       <div class="top-line__text">
         Внешний торговый представитель
       </div>
-      <div class="btn top-line__btn">
+      <a href="#" class="btn top-line__btn">
         ПРОЙТИ ОНЛАЙН-СОБЕСЕДОВАНИЕ
-      </div>
+      </a>
     </div>
   </div>
+  <script>
+    $(document).ready(function () {
+      $(window).on("scroll", function () {
+        var fromTop = $("body").scrollTop()
+        $('.top-line').toggleClass("sticky", (fromTop > $('.page-header').height()))
+      })
+    })
+  </script>
 </body>
 </html>

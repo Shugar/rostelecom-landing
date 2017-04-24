@@ -123,6 +123,7 @@
   line-height: 18px;
   letter-spacing: 1.1px;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .page-header__text-management-btn {
@@ -206,7 +207,6 @@
     text-align: center;
     vertical-align: middle;
     max-width: 320px;
-
   }
 
   .page-header__text-management-btn {
@@ -807,6 +807,14 @@
   top: 0;
   width: 100%;
   background: #00abe8;
+
+  transform: translateY(-100%);
+  transition: 0.2s transform ease;
+  will-change: transform;
+}
+
+.top-line.sticky {
+  transform: translateY(0);
 }
 
 .top-line__container {
@@ -830,7 +838,14 @@
 }
 
 .top-line__btn {
-  padding: 16px 20px 16px;
+  padding: 18px 20px 14px;
   background: white;
   color: #333333;
+}
+
+
+@media (max-width: 960px) {
+  .top-line {
+    display: none;
+  }
 }
