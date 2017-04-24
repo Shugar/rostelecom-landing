@@ -580,7 +580,7 @@
   width: 383px;
   height: 383px;
   background: url('../img/conditions.png') no-repeat center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .condition__icon-logo {
@@ -643,10 +643,10 @@
     height: 146px;
     margin: 0 auto;
     margin-bottom: 24px;
-    background: url('../img/conditions-mobile.png') no-repeat center;
-    background-size: contain;
-  }
 
+  }
+ background: url('../img/conditions-mobile.png') no-repeat center;
+    background-size: contain;
   .condition__icon-logo {
     top: 30px;
     left: 25px;
